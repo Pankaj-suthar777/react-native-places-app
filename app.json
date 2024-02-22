@@ -1,4 +1,15 @@
 {
   "name": "placesReactNative",
-  "displayName": "placesReactNative"
+  "displayName": "placesReactNative",
+
+  "expo": {
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "cameraPermission": "The app needs access to your camera in order to take photos of your favorite places."
+        }
+      ]
+    ]
+  }
 }
